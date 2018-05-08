@@ -62,3 +62,156 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* Styling for index.html */
+
+header {
+	display: flex;
+	justify-content: space-around;
+	height: 80px;
+	align-items: center;
+}
+
+header nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 30px;
+}
+
+.cta {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.cta-text {
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.index-button {
+    border: solid black 1px;
+    color: black;
+    padding: 15px 32px;
+	font-size: 16px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+	font-size: 24px;
+	margin: auto;
+	width: 80%;
+}
+
+hr {
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.middle-img {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-around;
+	font-size: 24px;
+	margin: auto;
+	width: 80%;
+}
+
+.contact {
+	margin-left: 10%;
+	font-size: 24px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* Styling for services.html */
+
+.services-header-text {
+	font-size: 24px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.services-top-content {
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	margin: auto;
+	width: 85%;
+	line-height: 1.4em;
+}
+
+.services-text-content {
+	border: black solid 1px;
+	background: #f6f6f6;
+	margin: 30px;
+	padding: 10px;
+}
+
+.services-button {
+	border: solid black 1px;
+	border-radius: 5px;
+    color: black;
+    padding: 12px 25px;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.services-middle-content {
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	margin: auto;
+	width: 85%;
+	line-height: 1.4em;
+}
+
+.services-bottom-content {
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	margin: auto;
+	width: 85%;
+	line-height: 1.4em;
+}
+
+.services-info-content {
+	display: flex;
+	font-size: 18px;
+	margin: auto;
+	width: 85%;
+	line-height: 1.4em;
+}
+
+.services-info-text {
+	width: 50%;
+	margin: 30px;
+}
+
+li {
+	margin-left: 20px;
+}
